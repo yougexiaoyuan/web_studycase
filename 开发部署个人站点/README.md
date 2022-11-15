@@ -1,0 +1,73 @@
+欢迎来的我的小院，关注我，跟着我每天学习一点点，让你不在枯燥，不在孤单......
+
+有个小院是一个兴趣编程的学习社群，旨在帮助对编程感兴趣的朋友。
+
+# **Web入门开发**
+我们来学习Web入门开发的系列课程。
+
+首先我们来了解下这个课程能学到什么？ 
+
+1、你将可以掌握Web网站的开发全过程。 
+
+2、了解基础的HTML，CSS，JavaScript语言。 
+
+3、开发自己的第一个网站。
+
+ 4、认识很多对编程感兴趣的朋友，一起学习交流。
+
+本课程将通过7个小课程帮助大家学习Web编程入门，从认识，开发，部署整体的流程学习Web开发。
+
+最终成果让你拥有一个自己的个人网站，通过不断迭代，形成一个互联网个人的兴趣站点。
+
+![](https://img.alicdn.com/imgextra/i1/289589474/O1CN01nLLBpL2Jr97fgoDor_!!289589474.jpg)
+
+# **从下面链接中学习**
+
+Web入门开发【一】- Web开发介绍
+
+https://developer.aliyun.com/article/1040255?spm=a2c6h.24874632.expert-profile.91.500910c1xVJEkv
+
+Web入门开发【二】- 网站设计
+
+https://developer.aliyun.com/article/1040261?spm=a2c6h.24874632.expert-profile.90.500910c1xVJEkv
+
+
+Web入门开发【三】- 准备工作
+
+https://developer.aliyun.com/article/1040277?spm=a2c6h.24874632.expert-profile.89.500910c1xVJEkv
+
+Web入门开发【四】- 基础语言
+
+https://developer.aliyun.com/article/1040278?spm=a2c6h.24874632.expert-profile.88.500910c1xVJEkv
+
+Web入门开发【五】- 线上部署
+
+https://developer.aliyun.com/article/1040279?spm=a2c6h.24874632.expert-profile.87.500910c1xVJEkv
+
+Web入门开发【六】- 域名认证
+
+https://developer.aliyun.com/article/1040280?spm=a2c6h.24874632.expert-profile.86.500910c1xVJEkv
+
+Web入门开发【七】- 运行原理
+
+https://developer.aliyun.com/article/1040281?spm=a2c6h.24874632.expert-profile.85.500910c1xVJEkv
+
+Web入门开发【八】- 学习探索
+
+https://developer.aliyun.com/article/1040282?spm=a2c6h.24874632.expert-profile.84.500910c1xVJEkv
+
+
+
+****************************************************************************
+**全网可搜：小院里的霍大侠， 免费获取简单易懂的实战编程案例。**
+
+编程/就业/副业/创业/资源。
+
+私V信：huodaxia_xfeater；[私信二维码](http://www.yougexiaoyuan.com/images/weixin_huodaxia.jpg)
+
+公众号：有个小院（微信公众号：yougexiaoyuan）
+
+github：yougexiaoyuan (视频中源码免费获取)
+
+（部分素材来源于互联网，如有保护请联系作者）
+****************************************************************************
