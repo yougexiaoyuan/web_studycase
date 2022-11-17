@@ -1,0 +1,19 @@
+    .big{
+        width: 600px;
+        height: 600px;
+        border: 1px solid red;
+    }
+    .big>div{
+        width: 33%;
+        height: 33%;
+        border: 1px solid red;
+        float: left;
+        line-height: 200px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #start{
+        cursor: pointer;
+        background-color: rgb(160, 110, 119);
+    }
