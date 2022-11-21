@@ -1,0 +1,46 @@
+/* 1.对基本信息进行设置
+2.对提示信息框以及内容样式进行设置 */
+
+/* 对提示信息进行设置 */
+.tip{
+    /* 设置为相对定位：移动后原来的地方不会被占 */
+    position: relative;
+    width: 150px;
+    font-size: 16px;
+    /* 内边距：上下4px，左右自动 */
+    margin: 4px auto;
+    /* 设置字体的下划线 */
+    border-bottom: 1px dotted black;
+}
+/* 对弹出的部分进行设置 */
+.tiptext{
+    width: 150px;
+    text-align: center;
+    background-color: #555;
+    /* 字体颜色 */
+    color: #fff;
+    /* 设置该部分为绝对定位:移动位置后原来位置可以被占 */
+    position: absolute;
+    /* 设置内边距:上下5px 左右自动 */
+    padding: 5px 0;
+    /* 设置该部分目前隐藏 */
+    visibility: hidden;
+    /* 外边距：到盒子左侧60px处 */
+    margin-left: -60px;
+    /* 当元素之间重叠的时候，z-index 较大的元素会覆盖较小的元素在上层进行显示。 */
+    z-index: 1;
+    bottom: 125%;
+    left: 40%;
+    /* 设置元素为完全透明 */
+    opacity: 0;
+    /* 设置动画效果，1s后执行 */
+    transition: opacity 1s;
+    border-radius: 6px;
+}
+/* 设置鼠标经过时的状态 */
+.tip:hover .tiptext{
+    /* 设置元素可见 */
+    visibility: visible;
+    /* 设置背景完全不透明 */
+    opacity: 1;
+}
