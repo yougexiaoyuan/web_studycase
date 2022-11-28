@@ -75,3 +75,15 @@ JavaScript实战案例，编写大转盘，解决选择带来的烦恼，Web入�
 <a name="oQiTU"></a>
 # **你觉得大转盘还能用在什么地方？**
 ![](https://cdn.nlark.com/yuque/0/2022/png/34388852/1668667869702-44c96677-e729-424c-9cc2-0069770e7f65.png#averageHue=%23525252&clientId=uf2f6b736-f645-4&crop=0&crop=0&crop=1&crop=1&from=paste&id=ud663ac12&margin=%5Bobject%20Object%5D&originHeight=1080&originWidth=1920&originalType=url&ratio=1&rotation=0&showTitle=false&status=done&style=none&taskId=u9bddf855-a33f-4466-95f8-4d01e2d3a0f&title=)
+
+全网可搜：小院里的霍大侠， 免费获取简单易懂的实战编程案例。编程/就业/副业/创业/资源。
+
+私微信：huodaxia_xfeater
+
+二维码： http://www.yougexiaoyuan.com/images/weixin_huodaxia.jpg
+
+公众号：有个小院（微信公众号：yougexiaoyuan）
+
+github：yougexiaoyuan (视频源码免费获取)
+
+（部分素材来源于互联网，如有保护请联系作者）
