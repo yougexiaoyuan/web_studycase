@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小院里的霍大侠</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  <!-- 有个小院-兴趣编程 -->
+  <div class="container">
+    <h1>有个小院-进度条</h1>
+    <div class="counter">0%</div>
+    <hr class="loading-bar-back"/>
+    <hr class="loading-bar-front"/>
+  </div>
+    <script>
+      //有个小院-兴趣编程
+      const counterEl=document.querySelector(".counter");
+      const barEl = document.querySelector(".loading-bar-front");
+      let idx=0;
+      updateNum();
+      function updateNum(){
+        counterEl.innerText=idx+"%";
+        barEl.style.width=idx+"%";
+        idx++;
+        if(idx<101){
+          setTimeout(updateNum,20);
+        }
+      }
+    </script>
+  </body>
+</html>

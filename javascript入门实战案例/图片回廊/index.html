@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小院里的霍大侠</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   <!-- 有个小院-兴趣编程 -->
+   <div class="image-container">
+     <span style="--i: 1">
+        <img src="1.jpg" />
+      </span>
+     <span style="--i: 2">
+        <img src="2.jpg" />
+      </span>
+     <span style="--i: 3">
+        <img src="3.jpg" />
+      </span>
+     <span style="--i: 4">
+        <img src="4.jpg" />
+      </span>
+     <span style="--i: 5">
+        <img src="5.jpg" />
+      </span>
+     <span style="--i: 6">
+        <img src="6.jpg" />
+      </span>
+     <span style="--i: 7">
+        <img src="7.jpg" />
+      </span>
+     <span style="--i: 8">
+        <img src="8.jpg" />
+      </span>
+   </div>
+   <div class="btn-container">
+     <button class="btn" id="prev">前一个</button>
+     <button class="btn-next" onclick="nextEvent()">下一个</button>
+   </div>
+   <script>
+     //有个小院-兴趣编程
+     const imageContainerEl=document.querySelector(".image-container");
+     const prevEl=document.getElementById("prev");
+     const nextEl = document.getElementById("next");
+     let x=0;
+     let timer;
+     prevEl.addEventListener("click",()=>{
+       x=x+45;
+       clearTimeout(timer);
+       updateGallery();
+     });
+     function nextEvent(){
+       x=x-45;
+       clearTimeout(timer);
+       updateGallery();
+     }
+     function updateGallery(){
+       imageContainerEl.style.transform=`perspective(1000px) rotateY(${x}deg)`;
+       timer=setTimeout(()=>{
+         x=x-45;
+         updateGallery();
+       },3000);
+     }
+     updateGallery();
+   </script>
+  </body>
+</html>
