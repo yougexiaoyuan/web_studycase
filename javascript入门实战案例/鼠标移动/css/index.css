@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: darkblue;
+  color: white;
+  font-family: cursive;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+}
+
+.mouse-event {
+  border: solid 1px lightgray;
+  margin: 40px;
+  min-width: 180px;
+  min-height: 100px;
+  position: relative;
+  /* 在容器中央对齐弹性项目 */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+}
+
+.mouse-event h4 {
+  position: absolute;
+  top: -50px;
+  font-size: 14px;
+  left: 50%;
+  /* 向量平移的横坐标长度 */
+  transform: translateX(-50%);
+  /* 强制在同一行内显示所有文本，直到文本结束或者遭遇br标签对象才换行 */
+  white-space: nowrap;
+  font-weight: 100;
+  color: lightgray;
+}
+/* 浏览窗口<=500px时，垂直显示弹窗 */
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <link href="../css/调皮的字母.css" rel="stylesheet">
+    <title>调皮的字母</title>
+</head>
+ <!-- 有个小院-兴趣编程 -->
+<body>
+      <!-- onkeydown 事件会在用户按下一个键盘按键时发生keydown()事件 -->
+        <input type="text" id="input" onkeydown="keydown()">
+        <div id="ground">
+            <label for="interval">生成间隔:</label>
+            <input type="number" id="interval" value="100">
+            <br>
+            <label for="speed">下落速度:</label>
+            <input type="number" id="speed" value="5">
+            <input type="button" value="重新开始" onclick="gameStart()">
+            <input type="button" value="重置时间" onclick="location.reload()">
+            <p id="hint">3</p>
+            <p id="score">分数: <span id="scorenum">0</span></p>
+        </div>
+     <!-- 主体部分 -->
+        <div id="container"></div>
+        <script src="../js的字母.js"></script>
+</body>
+ 
+</html>

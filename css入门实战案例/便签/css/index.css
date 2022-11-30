@@ -1,0 +1,46 @@
+/* 有个小院-兴趣编程 */
+/* 1.对便签设置鼠标移动前后的效果
+2.对便签的字体以及便签位置样式的改变 */
+
+/* 便签的字体进行设置 */
+.mysidenav a{
+    /* 绝对定位:在设置top、right、bottom、left时相对于父本而言 */
+    position: absolute;
+    left: -100px;
+    padding: 20px;
+    /* 便签的大小 */
+    width: 200px;
+    color: white;
+    font-size: 24px;
+    /* 没有下划线 */
+    text-decoration: none;
+    /* 设置圆角为靠边缘的圆角为0 */
+    border-radius: 0 10px 10px 0;
+    /* 动画效果维持的时长 */
+    transition: 0.3s;
+}
+/* 鼠标经过时字体的变化 */
+.mysidenav a:hover{
+    left: 0;
+}
+/* 第一个便签 */
+#html{
+    /* 距盒子上部 */
+    top: 20px;
+    background-color: rgb(236, 133, 115);
+}
+/* 第二个便签 */
+#css{
+    top: 100px;
+    background-color: rgb(47, 18, 212);
+}
+/* 第三个便签 */
+#javascript{
+    top: 180px;
+    background-color: rgb(9, 189, 235);
+}
+/* 第四个便签 */
+#python{
+    top: 260px;
+    background-color: seagreen;
+}
