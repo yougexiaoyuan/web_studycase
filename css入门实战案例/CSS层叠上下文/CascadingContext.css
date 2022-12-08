@@ -1,0 +1,43 @@
+.bold {
+    /* 设置字体加粗 */
+    font-weight: bold;
+    font: 12px Arial;
+}
+#div1,
+#div3 {
+    height: 80px;
+    /* 定位方式 */
+    position: relative;
+    /* 边框样式背景色 */
+    border: 1px dashed #669966;
+    background-color: #ccffcc;
+    padding-left: 5px;
+}
+#div2 {
+    opacity: 0.8;
+    /* 设置元素的堆叠顺序 */
+    z-index: 1;
+    position: absolute;
+    /* 设置宽高边距 */
+    width: 150px;
+    height: 200px;
+    top: 20px;
+    left: 170px;
+    border: 1px dashed #990000;
+    background-color: #ffdddd;
+    /* 居中字体 */
+    text-align: center;
+}
+#div4 {
+    opacity: 0.8;
+    z-index: 2;
+    position: absolute;
+    width: 200px;
+    height: 140px;
+    top: 65px;
+    left: 50px;
+    border: 1px dashed #000099;
+    background-color: #ddddff;
+    text-align: left;
+    padding-left: 10px;
+}
