@@ -10,11 +10,6 @@
 ![](https://ucc.alicdn.com/pic/developer-ecology/5af21af652504565894378557af79739.png)
 ![](https://ucc.alicdn.com/pic/developer-ecology/795bbf11eaf94087b9fc84dd0cc8be96.png)
 
-# **从下面链接中学习**
-
-https://developer.aliyun.com/article/1015803?spm=a2c6h.24874632.expert-profile.93.500910c18yjzAI
-
-
 
 
 ****************************************************************************
