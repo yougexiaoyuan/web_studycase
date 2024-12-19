@@ -50,11 +50,6 @@ body
 
 编程/就业/副业/创业/资源。
 
-私V信：huodaxia_xfeater；[私信二维码](http://www.yougexiaoyuan.com/images/weixin_huodaxia.jpg)
-
-公众号：有个小院（微信公众号：yougexiaoyuan）
-
-github：yougexiaoyuan (视频中源码免费获取)
 
 （部分素材来源于互联网，如有保护请联系作者）
 ****************************************************************************
